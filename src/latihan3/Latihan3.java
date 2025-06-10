@@ -6,16 +6,14 @@
 package latihan3;
 
 /**
- *
- * @author roffi
+ * Nama  : [Roffi Azra Khairan]
+ * NPM   : [2310010450]
+ * Kelas : [4A reg pagi]
  */
-public class Latihan3 {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+public class rumus {
+    int sisi;
+    int panjang;
+    int lebar;
+    int hasil;
 }
