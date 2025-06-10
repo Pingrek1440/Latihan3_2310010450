@@ -16,4 +16,14 @@ public class rumus {
     int panjang;
     int lebar;
     int hasil;
+    
+    public void hitungLuasPersegi() {
+        hasil = sisi * sisi;
+        system.out.println("Luas Persegi: " + hasil);
+    }
+    
+    public void setLuasPersegiPanjang() {
+        hasil = panjang * lebar;
+        system.out.println("Luas persegi panjang: " + hasil):   
+    }
 }
