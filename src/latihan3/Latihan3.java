@@ -11,11 +11,18 @@ package latihan3;
  * Kelas : [4A reg pagi]
  */
 
-public class rumus {
+public class Rumus {
     int sisi;
     int panjang;
     int lebar;
     int hasil;
+    
+    public Rumus(){
+        sisi = 0;
+        panjang = 0;
+        lebar = 0;
+        hasil = 0;
+    }
     
     public void hitungLuasPersegi() {
         hasil = sisi * sisi;
@@ -25,5 +32,9 @@ public class rumus {
     public void setLuasPersegiPanjang() {
         hasil = panjang * lebar;
         system.out.println("Luas persegi panjang: " + hasil):   
+    }
+    
+    public int getHasil(){
+        return hasil;
     }
 }
